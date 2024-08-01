@@ -1,0 +1,94 @@
+body{
+  display: flex;
+ justify-content: center;
+  align-items: center;
+background-image: url(./assets/stop-watch.jpg);
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+
+
+
+}
+.watch-body1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px;
+  border-radius: 50px;
+  padding: 30px;
+
+
+  
+}
+
+.watch-body1{
+  
+  font-size:2rem;
+  font-weight: bold;
+  font-family: monospace;
+  margin-bottom: 25px;
+
+}
+
+.to-do-body0{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+.stop{
+  color: rgb(255, 255, 255);
+  background-color: rgb(108, 108, 108);
+  border-radius: 7px;
+  font-size: 2rem;
+  margin: 10px;
+}
+.stop:hover{
+  background-color: rgb(196, 2, 2);
+  color: rgb(0, 0, 0);
+
+}
+.start{
+  color: rgb(255, 255, 255);
+  background-color: rgb(131, 131, 131);
+  border-radius: 7px;
+  font-size: 2rem;
+  margin: 10px;
+}
+.start:hover{
+  background-color: rgb(58, 233, 0);
+  color: rgb(0, 0, 0);
+
+
+}
+.reset{
+  color: rgb(255, 255, 255);
+  background-color: rgb(144, 144, 144);
+  border-radius: 7px;
+  font-size: 2rem;
+  margin: 10px;
+}
+.reset:hover{
+  background-color: rgb(30, 0, 255);
+  color: rgb(0, 0, 0);
+  
+
+
+}
+.watch-body1{
+  backdrop-filter: blur(2px);
+  width: 100vw;
+  padding: 10px 0;
+
+}
+.watch-body0{
+  font-size: 4.4rem;
+  color: aliceblue;
+}
